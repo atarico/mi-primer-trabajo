@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipo Figma - Sitio Web de Servicios Digitales (Dark Mode)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Prototipo Figma - Sitio Web de Servicios Digitales (Dark Mode)</h1>
+
+        <section class="figma-section">
+            <h2>Sistema de Diseño</h2>
+            <article>
+                <h3>Paleta de Colores</h3>
+                <div class="color-palette">
+                    <figure class="color-box primary-color">
+                        <figcaption>#6D28D9<br>Primario</figcaption>
+                    </figure>
+                    <figure class="color-box primary-light-color">
+                        <figcaption>#8B5CF6<br>Primario claro</figcaption>
+                    </figure>
+                    <figure class="color-box secondary-color">
+                        <figcaption>#10B981<br>Secundario</figcaption>
+                    </figure>
+                    <figure class="color-box accent-color">
+                        <figcaption>#F59E0B<br>Acento</figcaption>
+                    </figure>
+                    <figure class="color-box dark-bg-color">
+                        <figcaption>#121212<br>Fondo</figcaption>
+                    </figure>
+                    <figure class="color-box dark-surface-color">
+                        <figcaption>#1E1E1E<br>Superficie</figcaption>
+                    </figure>
+                    <figure class="color-box dark-surface-2-color">
+                        <figcaption>#2D2D2D<br>Superficie 2</figcaption>
+                    </figure>
+                </div>
+            </article>
+
+            <article>
+                <h3>Tipografía</h3>
+                <p>
+                    <strong class="typography-sample typography-bold">Inter Bold</strong> - Para títulos<br>
+                    <span class="typography-sample typography-regular">Inter Regular</span> - Para texto normal<br>
+                    <span class="typography-sample typography-medium"><em>Inter Medium</em></span> - Para texto
+                    destacado
+                </p>
+            </article>
+
+            <article>
+                <h3>Componentes</h3>
+                <div class="component-group">
+                    <button class="btn btn-primary">Botón Primario</button>
+                    <button class="btn btn-secondary">Botón Secundario</button>
+                    <button class="btn btn-tertiary">Botón Terciario</button>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="input-field" placeholder="Campo de texto">
+                    <textarea class="input-field" placeholder="Área de texto" rows="3"></textarea>
+                </div>
+            </article>
+        </section>
+
+        <section class="figma-section">
+            <h2>Vista Mobile (375px)</h2>
+
+            <div class="responsive-view">
+                <article class="device mobile">
+                    <header class="device-header">Página de Inicio - Mobile</header>
+                    <div class="device-content">
+                        <section class="mockup">
+                            <header class="mockup-header">
+                                <div class="logo"></div>
+                                <button class="menu-icon" aria-label="Menú">
+                                    <span class="menu-line"></span>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-line"></span>
+                                </button>
+                            </header>
+                            <div class="mockup-content">
+                                <section class="hero-section">
+                                    <div>
+                                        <h3>Transformamos ideas en soluciones digitales</h3>
+                                        <button class="btn btn-secondary contact-btn">Contáctanos</button>
+                                    </div>
+                                </section>
+
+                                <h3>Nuestros Servicios</h3>
+                                <article class="service-card">
+                                    <h4>Marketing Digital</h4>
+                                    <p>Estrategias efectivas para posicionar tu marca.</p>
+                                    <button class="btn btn-tertiary service-btn">Ver más</button>
+                                </article>
+                                <article class="service-card">
+                                    <h4>Diseño Gráfico</h4>
+                                    <p>Comunicación visual con impacto.</p>
+                                    <button class="btn btn-tertiary service-btn">Ver más</button>
+                                </article>
+                                <article class="service-card">
+                                    <h4>Desarrollo Web</h4>
+                                    <p>Sitios a medida optimizados para resultados.</p>
+                                    <button class="btn btn-tertiary service-btn">Ver más</button>
+                                </article>
+
+                                <h3>Empresas que confían en nosotros</h3>
+                                <section class="brands-section">
+                                    <div class="brand-logo"></div>
+                                    <div class="brand-logo"></div>
+                                    <div class="brand-logo"></div>
+                                    <div class="brand-logo"></div>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="device mobile">
+                    <header class="device-header">Página de Marketing - Mobile</header>
+                    <div class="device-content">
+                        <section class="mockup">
+                            <header class="mockup-header">
+                                <div class="logo"></div>
+                                <button class="menu-icon" aria-label="Menú">
+                                    <span class="menu-line"></span>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-line"></span>
+                                </button>
+                            </header>
+                            <div class="mockup-content">
+                                <section class="marketing-hero">
+                                    <h3>Marketing Digital</h3>
+                                </section>
+
+                                <p>Potenciamos tu presencia online con estrategias eficaces de marketing digital que
+                                    aumentan la visibilidad de tu marca y generan más conversiones.</p>
+
+                                <h3>Beneficios</h3>
+                                <article class="service-card">Mayor visibilidad online</article>
+                                <article class="service-card">Aumento de conversiones</article>
+                                <article class="service-card">Engagement con tu audiencia</article>
+
+                                <h3>Nuestro Equipo</h3>
+                                <section class="team-section">
+                                    <figure class="team-member">
+                                        <div class="avatar"></div>
+                                        <figcaption>Ana</figcaption>
+                                    </figure>
+                                    <figure class="team-member">
+                                        <div class="avatar"></div>
+                                        <figcaption>Carlos</figcaption>
+                                    </figure>
+                                    <figure class="team-member">
+                                        <div class="avatar"></div>
+                                        <figcaption>Marta</figcaption>
+                                    </figure>
+                                </section>
+
+                                <h3>Tecnologías</h3>
+                                <section class="tech-stack">
+                                    <div class="tech-logo">Google Ads</div>
+                                    <div class="tech-logo">Meta Ads</div>
+                                    <div class="tech-logo">Analytics</div>
+                                    <div class="tech-logo">HubSpot</div>
+                                </section>
+
+                                <div class="cta-section">
+                                    <button class="btn btn-primary">Solicitar servicio</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="device mobile">
+                    <header class="device-header">Página de Contacto - Mobile</header>
+                    <div class="device-content">
+                        <section class="mockup">
+                            <header class="mockup-header">
+                                <div class="logo"></div>
+                                <button class="menu-icon" aria-label="Menú">
+                                    <span class="menu-line"></span>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-line"></span>
+                                </button>
+                            </header>
+                            <div class="mockup-content">
+                                <h3>Contacto</h3>
+                                <p>Estamos listos para ayudarte. Completa el formulario y nos pondremos en contacto
+                                    contigo lo antes posible.</p>
+
+                                <form class="contact-form">
+                                    <div class="form-field">
+                                        <input type="text" class="input-field" placeholder="Nombre completo">
+                                    </div>
+                                    <div class="form-field">
+                                        <input type="email" class="input-field" placeholder="Correo electrónico">
+                                    </div>
+                                    <div class="form-field">
+                                        <select class="input-field">
+                                            <option>Selecciona un servicio</option>
+                                            <option>Marketing Digital</option>
+                                            <option>Diseño Gráfico</option>
+                                            <option>Desarrollo Web</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field">
+                                        <textarea class="input-field" placeholder="Tu mensaje" rows="4"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary full-width-btn">Enviar mensaje</button>
+                                </form>
+
+                                <section class="additional-info">
+                                    <h4>Información adicional</h4>
+                                    <address>
+                                        Email: contacto@serviciosdigitales.com<br>
+                                        Teléfono: +1 234 567 890<br>
+                                        Dirección: Calle Principal 123
+                                    </address>
+                                </section>
+
+                                <section class="map-placeholder">
+                                    <p>Mapa (placeholder)</p>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="figma-section">
+            <h2>Vista Desktop (1440px)</h2>
+
+            <div class="responsive-view">
+                <article class="device desktop">
+                    <header class="device-header">Página de Inicio - Desktop</header>
+                    <div class="device-content desktop-content">
+                        <nav class="desktop-nav">
+                            <div class="logo"></div>
+                            <ul class="nav-links">
+                                <li class="nav-link active">Inicio</li>
+                                <li class="nav-link">Marketing</li>
+                                <li class="nav-link">Diseño</li>
+                                <li class="nav-link">Web</li>
+                                <li class="nav-link">Contacto</li>
+                            </ul>
+                        </nav>
+
+                        <div class="desktop-main-content">
+                            <section class="desktop-hero">
+                                <div class="hero-content">
+                                    <h3>Transformamos ideas en soluciones digitales</h3>
+                                    <p>Diseñamos experiencias únicas que conectan con tu audiencia y generan resultados
+                                        reales.</p>
+                                    <button class="btn contact-btn">Contáctanos</button>
+                                </div>
+                                <figure class="hero-image">
+                                    <figcaption>Imagen Hero</figcaption>
+                                </figure>
+                            </section>
+                        </div>
+
+                        <h3>Nuestros Servicios</h3>
+                        <section class="services-grid">
+                            <article class="service-card">
+                                <h4>Marketing Digital</h4>
+                                <p>Estrategias efectivas para posicionar tu marca.</p>
+                                <button class="btn btn-tertiary service-btn">Ver más</button>
+                            </article>
+                            <article class="service-card">
+                                <h4>Diseño Gráfico</h4>
+                                <p>Comunicación visual con impacto.</p>
+                                <button class="btn btn-tertiary service-btn">Ver más</button>
+                            </article>
+                            <article class="service-card">
+                                <h4>Desarrollo Web</h4>
+                                <p>Sitios a medida optimizados para resultados.</p>
+                                <button class="btn btn-tertiary service-btn">Ver más</button>
+                            </article>
+                        </section>
+
+                        <h3>Empresas que confían en nosotros</h3>
+                        <section class="brands-grid">
+                            <div class="brand-logo"></div>
+                            <div class="brand-logo"></div>
+                            <div class="brand-logo"></div>
+                            <div class="brand-logo"></div>
+                            <div class="brand-logo"></div>
+                            <div class="brand-logo"></div>
+                        </section>
+                        <footer class="page-footer">
+                            <p>© 2025 Servicios Digitales. Todos los derechos reservados.</p>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="device desktop">
+                    <header class="device-header">Página de Desarrollo Web - Desktop</header>
+                    <div class="device-content desktop-content">
+                        <nav class="desktop-nav">
+                            <div class="logo"></div>
+                            <ul class="nav-links">
+                                <li class="nav-link">Inicio</li>
+                                <li class="nav-link">Marketing</li>
+                                <li class="nav-link">Diseño</li>
+                                <li class="nav-link active">Web</li>
+                                <li class="nav-link">Contacto</li>
+                            </ul>
+                        </nav>
+
+                        <section class="web-hero">
+                            <h3>Desarrollo Web</h3>
+                        </section>
+
+                        <div class="two-column-layout">
+                            <main class="main-content">
+                                <p>
+                                    Construimos sitios y aplicaciones web de alto rendimiento que impulsan tu negocio y
+                                    ofrecen experiencias de usuario excepcionales. Nuestro equipo domina las mejores
+                                    prácticas modernas y las adapta a tus objetivos.
+                                </p>
+
+                                <h3>Beneficios</h3>
+                                <section class="benefits-grid">
+                                    <article class="service-card">Arquitectura escalable</article>
+                                    <article class="service-card">SEO y rendimiento óptimos</article>
+                                    <article class="service-card">Experiencia de usuario fluida</article>
+                                </section>
+
+                                <h3>Tecnologías</h3>
+                                <section class="tech-stack">
+                                    <div class="tech-logo">React</div>
+                                    <div class="tech-logo">Next.js</div>
+                                    <div class="tech-logo">Node.js</div>
+                                    <div class="tech-logo">Supabase</div>
+                                    <div class="tech-logo">Tailwind</div>
+                                </section>
+
+                                <button class="btn btn-primary">Solicitar servicio</button>
+                            </main>
+
+                            <aside class="sidebar">
+                                <h3>Nuestro Equipo</h3>
+                                <section class="team-grid">
+                                    <figure class="team-member">
+                                        <div class="avatar"></div>
+                                        <figcaption>María</figcaption>
+                                    </figure>
+                                    <figure class="team-member">
+                                        <div class="avatar"></div>
+                                        <figcaption>Carlos</figcaption>
+                                    </figure>
+                                    <figure class="team-member">
+                                        <div class="avatar"></div>
+                                        <figcaption>Julián</figcaption>
+                                    </figure>
+                                </section>
+                            </aside>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="figma-section">
+            <h2>Estructura del Archivo Figma</h2>
+
+            <article>
+                <h3>Organización de Páginas</h3>
+                <ul class="pages-list">
+                    <li>📄 Sistema de Diseño (Colores, Tipografías, Componentes)</li>
+                    <li>📄 Mobile (375px)
+                        <ul>
+                            <li>Inicio</li>
+                            <li>Marketing Digital</li>
+                            <li>Diseño Gráfico</li>
+                            <li>Desarrollo Web</li>
+                            <li>Contacto</li>
+                        </ul>
+                    </li>
+                    <li>📄 Desktop (1440px)
+                        <ul>
+                            <li>Inicio</li>
+                            <li>Marketing Digital</li>
+                            <li>Diseño Gráfico</li>
+                            <li>Desarrollo Web</li>
+                            <li>Contacto</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Biblioteca de Componentes</h3>
+                <section class="components-grid">
+                    <article class="component">
+                        <h4>Botones</h4>
+                        <div class="component-group">
+                            <button class="btn btn-primary">Primario</button>
+                            <button class="btn btn-secondary">Secundario</button>
+                        </div>
+                    </article>
+                    <article class="component">
+                        <h4>Campos de Formulario</h4>
+                        <input type="text" class="input-field" placeholder="Input">
+                    </article>
+                    <article class="component">
+                        <h4>Cards</h4>
+                        <div class="card-example">Card Ejemplo</div>
+                    </article>
+                    <article class="component">
+                        <h4>Navegación</h4>
+                        <nav class="nav-example">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                        </nav>
+                    </article>
+                </section>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
